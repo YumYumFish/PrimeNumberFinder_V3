@@ -8,7 +8,7 @@ public class PrimeNumbers_V3
     public static int lowNum, highNum;
     public static String lowNumStr, highNumStr;
         
-    public static void main(String s[]) 
+    public static void main(String[] args) 
     {            
         JFrame frame = new JFrame("Trevor_MacDiarmid : PrimeNumbers_V3");  
         
@@ -18,8 +18,8 @@ public class PrimeNumbers_V3
         Font Sherif = new Font("Times New Roman", Font.TRUETYPE_FONT, 12);
         
         //Creates and configurestwo new JTextFields..
-        textfieldLowNum = new JTextField("Low Number Here",10);
-        textfieldHighNum = new JTextField("High Number Here",10);
+        textfieldLowNum = new JTextField("Low Number Here",11);
+        textfieldHighNum = new JTextField("High Number Here",11);
         
         textfieldLowNum.setForeground(Color.DARK_GRAY);
         textfieldHighNum.setForeground(Color.DARK_GRAY);
