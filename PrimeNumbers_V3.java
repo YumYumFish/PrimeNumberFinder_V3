@@ -8,7 +8,7 @@ public class PrimeNumbers_V3
     public static int lowNum, highNum;
     public static String lowNumStr, highNumStr;
         
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {            
         JFrame frame = new JFrame("Trevor_MacDiarmid : PrimeNumbers_V3");  
         
